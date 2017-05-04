@@ -1,0 +1,26 @@
+body{
+    background-color: magenta;
+    -webkit-font-smoothing: antialiased;                               /*smooth text*/
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sprite {
+    background: url(../img/spritesheet.png) no-repeat;
+    display: block;
+}
+
+.sprite-header {
+    width: 990px;
+    height: 200px;
+    background-position: -5px -5px;
+}
+
+.sprite-start_img {
+    width: 450px;
+    height: 350px;
+    background-position: -5px -215px;
+}
+
