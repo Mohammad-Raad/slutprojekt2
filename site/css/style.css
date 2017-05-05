@@ -54,6 +54,8 @@ body{                                                                   /*glöm 
 .menu_text{
     margin: 20px;                                                   /*ändra denna dvs ge denna menu stil och inte <a>*/
     font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 .title_text{                                                        /*majoritet av texter ska vara indented då det sägs i STILGUIDEN*/
