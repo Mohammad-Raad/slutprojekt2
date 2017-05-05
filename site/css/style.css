@@ -1,6 +1,6 @@
 body{                                                                   /*glöm inte screenshots för STILGUIDE på hur duu menar*/
-    background-color: magenta;
-    -webkit-font-smoothing: antialiased;                               /*smooth text*/
+    background-color: black;
+    -webkit-font-smoothing: antialiased;                                /*smooth text*/
     font-family: sans-serif;
     display: flex;
     align-items: center;
@@ -26,14 +26,14 @@ body{                                                                   /*glöm 
 
 .container{
     background-color: white;
-    min-height: 990px;
+    min-height: 900px;
     max-width: 990px;
     display: flex;
     flex-direction: column;
 }
 
 .page{
-    background-color: brown;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -45,7 +45,7 @@ body{                                                                   /*glöm 
 }
 
 .menu{
-    background-color: aqua;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,6 +53,7 @@ body{                                                                   /*glöm 
 
 .menu_text{
     margin: 20px;                                                   /*ändra denna dvs ge denna menu stil och inte <a>*/
+    font-weight: bold;
 }
 
 .title_text{                                                        /*majoritet av texter ska vara indented då det sägs i STILGUIDEN*/
@@ -156,4 +157,16 @@ input[type="submit"], .knapp{
     border: solid black 1px;
     color: white;
     margin: 10px;
+}
+
+.footer_text{
+    margin: 5px;
+    font-size: 13px;                                                /*ha med i stilguide footer 13px*/
+}
+
+footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
