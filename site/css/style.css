@@ -129,11 +129,12 @@ body{                                                                   /*glöm 
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: white;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid white;
     width: 80%;
+    height: 300px;
 }
 
 .close {
@@ -144,7 +145,15 @@ body{                                                                   /*glöm 
 }
 
 .close:hover, .close:focus {
-    color: #000;
-    text-decoration: none;
+    color: black;
     cursor: pointer;
+}
+
+input[type="submit"], .knapp{
+    background-color: black;
+    height: 36px;
+    width: 208px;
+    border: solid black 1px;
+    color: white;
+    margin: 10px;
 }
