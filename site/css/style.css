@@ -1,4 +1,4 @@
-body{
+body{                                                                   /*glöm inte screenshots för STILGUIDE på hur duu menar*/
     background-color: magenta;
     -webkit-font-smoothing: antialiased;                               /*smooth text*/
     font-family: sans-serif;
@@ -24,3 +24,88 @@ body{
     background-position: -5px -215px;
 }
 
+.container{
+    background-color: white;
+    min-height: 990px;
+    max-width: 990px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+
+.page_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu_text{
+    margin: 20px;                                                   /*ändra denna dvs ge denna menu stil och inte <a>*/
+}
+
+.title_text{                                                        /*majoritet av texter ska vara indented då det sägs i STILGUIDEN*/
+    margin-left: 10px;                                              /*bla h2 ska ha egen stil, vanlig text ska ha egen stil osv..*/
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.image_n_sm{
+    display: flex;
+    flex-direction: column;
+}
+
+.social_media_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
