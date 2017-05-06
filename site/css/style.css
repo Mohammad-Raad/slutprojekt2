@@ -52,7 +52,7 @@ body{                                                                   /*glöm 
 }
 
 .menu_text{
-    margin: 20px;                                                   /*ändra denna dvs ge denna menu stil och inte <a>*/
+    margin: 20px;                                                   /*ändra denna dvs ge denna menu stil och inte <a>, STILGUIDE*/
     font-weight: bold;
     text-decoration: none;
     color: black;

@@ -12,7 +12,7 @@
     <body>
         <div class="container">
             <div class="header">
-                <i class="sprite sprite-header"></i>
+                <i class="sprite sprite-header" onclick="location.href='./index.html'"></i>
             </div>
             <div class="page">
                 <div class="menu">
@@ -64,16 +64,16 @@
                             </p>
                             <form action="./travel.html">
                                 <label>
-                                    <input type="radio" name="travel_check" value="male" checked>
+                                    <input type="radio" name="travel_check" value="hot_tropical" checked>
                                 </label> Hot, tropical<br>
                                 <label>
-                                    <input type="radio" name="travel_check" value="female">
+                                    <input type="radio" name="travel_check" value="hot_desert">
                                 </label> Hot, desert<br>
                                 <label>
-                                    <input type="radio" name="travel_check" value="other">
+                                    <input type="radio" name="travel_check" value="cold_windy">
                                 </label> Cold, windy<br>
                                 <label>
-                                    <input type="radio" name="travel_check" value="other">
+                                    <input type="radio" name="travel_check" value="cold_snowy">
                                 </label> Cold, snowy<br><br>
                                 <input value="Continue" type="submit">
                             </form>
@@ -89,5 +89,10 @@
             </footer>
         </div>
     <script src="./js/script.js"></script>
+    <script>
+        function delay (action) {
+            setTimeout( function() { window.location = action('./travel.html') }, 500 );
+        }
+    </script>
     </body>
 </html>
