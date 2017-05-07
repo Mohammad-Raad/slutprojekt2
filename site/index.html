@@ -62,7 +62,7 @@
                                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
-                            <form action="./travel.html">
+                            <form>
                                 <label>
                                     <input type="radio" name="travel_check" value="hot_tropical" checked>
                                 </label> Hot, tropical<br>
@@ -75,7 +75,7 @@
                                 <label>
                                     <input type="radio" name="travel_check" value="cold_snowy">
                                 </label> Cold, snowy<br><br>
-                                <input value="Continue" type="submit">
+                                <input value="Continue" type="submit" onclick="myFunction()">
                             </form>
                         </div>
                     </div>
@@ -90,8 +90,8 @@
         </div>
     <script src="./js/script.js"></script>
     <script>
-        function delay (action) {
-            setTimeout( function() { window.location = action('./travel.html') }, 500 );
+        function myFunction() {
+            setTimeout(function(){ window.location="./travel.html"; }, 3000);
         }
     </script>
     </body>
