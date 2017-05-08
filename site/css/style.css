@@ -76,6 +76,7 @@ body{                                                                   /*glöm 
 
 #unselect:hover{
     cursor: default;
+    opacity: 100;
 }
 
 .title_text{                                                        /*majoritet av texter ska vara indented då det sägs i STILGUIDEN*/
@@ -208,3 +209,40 @@ footer{
     flex-direction: column;
     justify-content: flex-end;
 }
+
+/*tooltip*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 350px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 2;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border: 5px solid transparent;
+    border-right-color: black;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    cursor: help;
+}
+
