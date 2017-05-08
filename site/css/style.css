@@ -18,6 +18,10 @@ body{                                                                   /*glöm 
     background-position: -5px -5px;
 }
 
+.sprite-header:hover{
+    cursor: pointer;
+}
+
 .sprite-start_img {
     width: 450px;
     height: 350px;
@@ -56,6 +60,22 @@ body{                                                                   /*glöm 
     font-weight: bold;
     text-decoration: none;
     color: black;
+}
+
+.menu_text:hover{
+    opacity: 0.7;
+}
+
+#unselect{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#unselect:hover{
+    cursor: default;
 }
 
 .title_text{                                                        /*majoritet av texter ska vara indented då det sägs i STILGUIDEN*/
@@ -159,6 +179,11 @@ input[type="submit"], .knapp{
     border: solid black 1px;
     color: white;
     margin: 10px;
+}
+
+input[type="submit"]:hover, .knapp:hover{
+    cursor: pointer;
+    opacity: 0.7;                                                   /*opacity*/
 }
 
 .footer_text{
