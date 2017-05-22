@@ -247,3 +247,109 @@ footer{
     cursor: help;
 }
 
+@media (max-width: 650px) and (max-height: 970px) {
+    html{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .container{
+        min-height: 568px;
+        max-width: 400px;
+        width: 320px;
+        height: 568px;
+    }
+
+    .sprite-header{
+        width: 100%;
+    }
+
+    .sprite-start_img{
+        width: 100%;
+    }
+
+    .menu_text{
+        font-size: 15px;
+        margin: 15px;
+    }
+
+    .title_text{
+        font-size: 20px;
+        margin: 6px;
+    }
+
+    .fa {
+        padding: 5px;
+        font-size: 25px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 30px 5px 30px;
+    }
+
+    .social_media{
+        align-items: center;
+    }
+
+    .vecation_text{
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .sprite-start_img{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .iphone_header{
+        background: url("../img/header_iphone.png") no-repeat;
+    }
+
+    .header{
+        height: 65px;
+
+    }
+
+    footer{
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .modal-content{
+        width: 320px;
+        height: 568px;
+        padding: 0;
+        margin-top: -100px;
+    }
+
+    .close{
+        margin-right: 10px;
+    }
+
+    .modal_rubrik{
+        margin-left: 25px;
+    }
+
+    .modal_text{
+        margin-right: 20px;
+    }
+
+    form{
+        margin-right: 25px;
+    }
+
+    .formular{
+        margin-right: 25px;
+    }
+
+}
