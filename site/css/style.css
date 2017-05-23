@@ -152,7 +152,7 @@ body{                                                                   /*glöm 
     background-color: rgba(0,0,0,0.4);
 }
 
-.modal-content {
+.modal_content {
     background-color: white;
     margin: auto;
     padding: 20px;
@@ -325,7 +325,7 @@ footer{
         margin-top: 10px;
     }
 
-    .modal-content{
+    .modal_content{
         width: 320px;
         height: 568px;
         padding: 0;
@@ -350,7 +350,169 @@ footer{
     }
 
     .formular{
+        margin-left: 90px;
+    }
+
+    #knapp_modal{
+        margin-left: -40px;
+    }
+
+    #load{
+        margin-left: -35px;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 100px;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 2;
+        top: -30px;
+        left: 110%;
+    }
+
+}
+
+@media (min-width: 650px) and (min-height: 970px) and (max-width: 770px) and (max-height: 1030px) {
+    html{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .container{
+        min-height: 1024px;
+        max-width: 770px;
+        width: 768px;
+        height: 1024px;
+    }
+
+    .sprite-header{
+        width: 100%;
+    }
+
+    .sprite-start_img{
+        width: 100%;
+    }
+
+    .menu_text{
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    .title_text{
+        font-size: 40px;
+        margin: 6px;
+    }
+
+    .fa {
+        padding: 15px;
+        font-size: 30px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    .social_media{
+        align-items: center;
+    }
+
+    .vecation_text{
+        font-size: 35px;
+        margin: 5px;
+    }
+
+    .sprite-start_img{
+        width: 450px;
+        height: 250px;
+    }
+
+    .ipad_header{
+        background: url("../img/header_ipad.png") no-repeat;
+    }
+
+    .header{
+        height: 155px;
+    }
+
+    footer{
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+    .footer_text{
+        font-size: 20px;
+    }
+
+    input[type="submit"], .knapp{
+        background-color: black;
+        height: 50px;
+        width: 300px;
+        border: solid black 1px;
+        color: white;
+        margin: 30px;
+        font-size: 20px;
+    }
+
+    .lorem_text{
+        font-size: 20px;
+    }
+
+    .modal_content{
+        width: 600px;
+        height: 800px;
+        padding: 0;
+    }
+
+    .close{
+        margin-right: 10px;
+    }
+
+    .modal_rubrik{
+        margin-left: 25px;
+    }
+
+    .modal_text{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    form{
         margin-right: 25px;
     }
 
+    .formular{
+        margin-left: 90px;
+    }
+
+    #knapp_modal{
+        margin-left: -40px;
+    }
+
+    #load{
+        margin-left: -35px;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 100px;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 2;
+        top: -30px;
+        left: 110%;
+    }
 }
