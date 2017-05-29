@@ -1,2 +1,2 @@
-# Mohammad Raad Slutprojekt webbutveckling
+# Mohammad Raad slutprojekt webbutveckling
 Slutprojekt, sista uppgiften i webbutveckling samt gränssnittsdesign.
